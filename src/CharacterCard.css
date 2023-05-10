@@ -1,0 +1,29 @@
+
+.character-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+.alive {
+    border: 2px solid green;
+    flex-basis: calc(50% - 10px);
+    margin: 5px;
+    background-color: #ccc;
+}
+
+.dead {
+    border: 2px solid red;
+    flex-basis: calc(50% - 10px);
+    margin: 5px;
+    background-color: #ccc;
+}
+
+.unknown {
+    border: 2px solid black;
+    flex-basis: calc(50% - 10px);
+    margin: 5px;
+    background-color: #ccc;
+}
+
